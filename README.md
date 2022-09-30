@@ -12,3 +12,7 @@
 ### Планы
 
 Планируется добавить поддержку англиского языка
+
+#### Pages
+
+https://mrrezak555.github.io/russian-travel/

@@ -6,6 +6,11 @@
     line-height: 28px;
     color: #FFFFFF;
     text-decoration: none;
+    margin-right: 18px;
+}
+
+.header__leng-link:last-child{
+    margin-right: 0;
 }
 
 

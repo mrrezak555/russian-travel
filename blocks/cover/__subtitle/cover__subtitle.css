@@ -8,9 +8,9 @@
     margin-top: 32px;
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 800px) {
     .cover__subtitle {
-      margin-top: 47px;
+      margin-top: 32px;
     }
   }
   

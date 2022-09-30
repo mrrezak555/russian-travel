@@ -24,7 +24,7 @@
 }
 
 
-@media  screen and (max-width:560px) {
+@media  screen and (max-width:650px) {
     .place{
         grid-template-columns: 1fr;
         row-gap: 32px;
@@ -32,6 +32,6 @@
     }
 }
 
-.place:nth-of-type(5){
+.place:last-child{
     margin-bottom: 0;
 }

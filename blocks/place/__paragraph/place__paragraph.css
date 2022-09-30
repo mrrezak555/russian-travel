@@ -2,12 +2,12 @@
     margin: 0;
 }
 
-.place__paragraph:nth-of-type(2){
+.place__paragraph:not(:first-child){
     margin-top: 26px;
 }
 
 @media  screen and (max-width:800px) {
-    .place__paragraph:nth-of-type(2){
+    .place__paragraph:not(:first-child){
         margin-top: 25px;
     }
 }
