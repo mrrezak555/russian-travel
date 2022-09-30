@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 92px 48px 24px; 
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+  }
+  
+  @media screen and (max-width: 800px) { 
+    .footer { 
+      margin: 88px 24px 24px; 
+    } 
+  } 
+
+
+  @media screen and (max-width: 685px) {
+    .footer {
+      flex-direction: column;
+      min-height: 310px;
+      margin: 64px 118px 24px 16px;
+    }
+  }

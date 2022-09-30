@@ -1,0 +1,33 @@
+.cover{
+    background-image: url(../../images/__background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    font-family: 'Inter';
+    font-style: normal;
+    max-width: 1184px;
+    margin: 92px auto 0 auto;
+}
+
+
+.cover::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    padding-top: 62.6%;
+}
+
+@media screen and (max-width: 800px){
+    .cover{
+        margin: 90px auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .cover{
+        margin: 66px auto 0 auto;
+    }
+}
