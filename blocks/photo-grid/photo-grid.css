@@ -2,7 +2,6 @@
     display: grid;
     max-width: 1184px;
     grid-template-columns: repeat(auto-fit, 284px);
-    margin: auto;
     gap: 16px;
     justify-content: center;
     margin: 92px auto 0 auto;
